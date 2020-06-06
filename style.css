@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.time {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    
+    
+}
+
+.scores {
+    text-align: left;
+    top: 14px;
+    left: 14px;
+    
+}
+
+.intro {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+}
+
+.choices{
+display: block;
+}
