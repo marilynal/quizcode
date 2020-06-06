@@ -64,7 +64,7 @@ var questions = [
 start.addEventListener("click", function () {
     hide();
     begin();
-    getAnswer();
+   
     //setting up a function to count down
     var countdown = setInterval(function () {
         counter++;
@@ -110,7 +110,7 @@ function getAnswer (){
         //event listener to make choice
         choices.addEventListener ("click",selectChoice)
         //display in html
-        console.log(ans.appendChild(choices))
+        // console.log(ans.appendChild(choices))
     });
 
 }
